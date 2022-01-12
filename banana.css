@@ -35,7 +35,7 @@ textarea{
     font-size: large;
     border: none;
     padding: 1rem 2rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 #output{
     border: 1px solid;
@@ -46,6 +46,14 @@ textarea{
     padding: 1rem;
 }
 footer{
+    position: fixed;
     background-color: #F2C94C;
     text-align: center;
+    bottom:0;
+    width: 100%;
+    padding: 1rem;
+}
+footer p{
+    max-width: 600px;
+    margin: auto;
 }
